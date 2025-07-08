@@ -1,0 +1,35 @@
+GIT HUB COMMANDS 
+
+
+git init   #To initialize the git commands
+git config --global user.name "fayaz22-y"
+git config --global user.email "mohammadfayaz22y@gmail.com"
+git config --global --list     #it shows the details of ur user and email
+ 
+
+after creating files and changes (from local to remote repository)
+
+git add .  ---- git add <filename.txt>
+git commit -m "new version updated"
+git remote add origin <GitHub url>
+git push -u origin <master> 
+
+BRANCHING AND MERGING:
+
+git branch <branch name> #to create the new branch 
+git checkout <branch name> # to checkout to new branch 
+git push origin main            # Push to GitHub (main branch)
+git pull origin main            # Pull from GitHub to local
+git log                        # View commit history
+git log --oneline              # Short commit log in one line 
+git remote -v   #to see the what are the remotes added 
+git remote remove origin        # Remove current origin
+git branch -d <branch name>    #to delete the branch 
+git merge <branch name>        #to merge the branch form another branch (in branch name enter to which branch we have to merge )
+
+
+git restore <filename>         # Undo changes in working directory before doing git add <filename>
+git reset --hard HEAD          # Reset to last commit (can be used after the git add )
+git diff <branch name>        #used to show the changes in the file before commit 
+git diff --staged 		#used Show staged file changes
+
