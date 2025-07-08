@@ -6,8 +6,7 @@ git config --global user.name "fayaz22-y"
 git config --global user.email "mohammadfayaz22y@gmail.com"
 git config --global --list     #it shows the details of ur user and email
  
-
-after creating files and changes (from local to remote repository)
+# after creating files and changes (from local to remote repository)
 
 git add .  ---- git add <filename.txt>
 git commit -m "new version updated"
