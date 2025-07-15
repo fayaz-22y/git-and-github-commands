@@ -1,4 +1,6 @@
 GIT HUB COMMANDS 
+sudo apt pdate 
+sudo apt install git 
 
 
 git init   #To initialize the git commands
