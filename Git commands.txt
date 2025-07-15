@@ -1,5 +1,5 @@
 GIT HUB COMMANDS 
-sudo apt pdate 
+sudo apt update 
 sudo apt install git 
 
 
